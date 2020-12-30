@@ -14,4 +14,4 @@ postgresql__data_dir: "/var/lib/postgresql/{{ postgresql__version }}/main"
 postgresql__bin_path: "/usr/lib/postgresql/{{ postgresql__version }}/bin"
 postgresql__config_path: "/etc/postgresql/{{ postgresql__version }}/main"
 
-postgresql__psycopg2: python-psycopg2
+postgresql__psycopg2: python3-psycopg2
